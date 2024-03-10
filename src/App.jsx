@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Signup from './Component/auth/signup/Signup'
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Signup />
+    </div>
   )
 }
 

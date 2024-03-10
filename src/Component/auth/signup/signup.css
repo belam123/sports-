@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+.container_signup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    color: #000;
+    margin-top: 70px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 1em;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container_signup .box_left{
+    padding: 10px;
+}
+
+.container_signup .box_left .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+.container_signup .box_left .heading h1{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.container_signup .box_left .heading .logo{
+    
+}
+
+.container_signup .box_left .heading .logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.container_signup .box_left h2{
+    margin-top: -9px;
+   text-align: center;
+}
+.container_signup .box_left .picture {
+    display: flex;
+    justify-content: center;
+}
+.container_signup .box_left .picture img{
+    width: 400px;
+    height: 400px;
+}
+
+.container_signup .box_right {
+    padding: 10px;
+}
+.container_signup .box_right .heading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_signup .box_right form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+
+}
+
+
+.container_signup .box_right form  input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 15px;
+}
+
+.container_signup .box_right .form input[type="text"],
+.container_signup .box_right .form input[type="email"],
+.container_signup .box_right .form input[type="password"] {
+  width: 70%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.container_signup .box_right .form button[type="submit"] {
+    width: 70%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+  }
+  .container_signup .box_right .form button[type="submit"]:hover{
+    background-color: #0d4c8e;
+  }
+
+  .eye{
+    position: relative;
+  }
+
+  .container_signup .box_right form .log{
+    display: flex;
+  }
+
+  .container_signup .box_right form  .log p{
+    padding: 3px;
+  }
+
+  .container_signup .box_right form  .log  .active_link{
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .container_signup .box_right form  .log  .active_link:hover{
+     color: #0d4c8e;
+  }
+  
+
+
+  
